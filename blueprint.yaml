@@ -1,0 +1,26 @@
+id: particle/blueprint-tracker-keypad-lcd
+category: solution
+icon: particle.png
+gitrepo: https://github.com/particle-iot/blueprint-tracker-keypad-lcd
+name: blueprint-tracker-keypad-lcd
+shortDescription: Adding a keypad or LCD to the Tracker One
+version: 1.0.0
+models: []
+language:
+  - C++
+cloudServices: []
+integrations:
+  - qcom-aware
+hardwareDependencies:
+  - name: Tracker One
+    link: https://www.particle.io/tracker-one/
+  - name: Particle T-SoM Module
+    link: https://www.particle.io/tracker-som/
+description: |
+  - Using a MAX7360 to read matrix keypads and drive LEDs
+  - Using a character LCD display with an I2C interface
+  - Interfacing to 5V I2C devices
+  - Using an I2C DAC (digital to analog converter), used to handle the contrast for the LCD
+  - Implementing cloud-configurable settings (contrast)
+  - Adding data to location events (keypad digits)
+  - Showing GNSS lock and cloud connection status with custom LEDs
