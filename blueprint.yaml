@@ -1,5 +1,5 @@
 id: particle/blueprint-tracker-keypad-lcd
-category: solution
+category: tutorial
 icon: particle.png
 gitrepo: https://github.com/particle-iot/blueprint-tracker-keypad-lcd
 name: blueprint-tracker-keypad-lcd
