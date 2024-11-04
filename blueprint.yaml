@@ -13,8 +13,10 @@ integrations: []
 hardwareDependencies:
   - name: Tracker One
     link: https://www.particle.io/tracker-one/
+    tags: [ "Tracker One" ]
   - name: Particle T-SoM Module
     link: https://www.particle.io/tracker-som/
+    tags: [ "T-SoM" ]
 description: |
   - Using a MAX7360 to read matrix keypads and drive LEDs
   - Using a character LCD display with an I2C interface
