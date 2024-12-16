@@ -1,24 +1,30 @@
 id: particle/blueprint-tracker-keypad-lcd
-category: tutorial
-icon: particle.png
+slug: particle-blueprint-tracker-keypad-lcd
+type: tutorial
+category: "Tracker projects"
+expertiseLevel: ""
+tags: ["tracker", "keypad"]
+icon: assets/particle-logo.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-keypad-lcd
 name: "Tracker keypad and LCD integration"
 shortDescription: Adding a keypad or LCD to the Tracker One
 version: 1.0.0
 models: []
-language:
-  - C++
+language: ["C++"]
 cloudServices: []
 integrations: []
-hardwareDependencies:
+supportDevices:
   - name: Tracker One
     link: https://www.particle.io/tracker-one/
-    tags: [ "Tracker One" ]
-  - name: Particle T-SoM Module
+  - name: T-SoM
     link: https://www.particle.io/tracker-som/
-    tags: [ "T-SoM" ]
+hardwareDependencies:
+  - name: Supported device
+introduction: |
+  This project demonstrates adding peripherals like a keypad, LCD, DAC, and custom LEDs to the Tracker One using the M8 connector. It's a demonstration board showcasing the kinds of hardware integrations possible, ideal for learning and experimentation.
 description: |
   This project demonstrates adding a keypad, LCD character display, DAC, and cloud configuration to the Tracker One using the M8 connector. It serves as an example of how the M8 connector can be used to expand Tracker functionality.
+additionalResources:
 
   - Using a MAX7360 to read matrix keypads and drive LEDs
   - Connecting a character LCD display with an I2C interface
