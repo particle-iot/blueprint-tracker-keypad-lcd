@@ -13,7 +13,7 @@ models: []
 language: ["C++"]
 cloudServices: []
 integrations: []
-supportDevices:
+supportedDevices:
   - name: Tracker One
     link: https://www.particle.io/tracker-one/
   - name: T-SoM
