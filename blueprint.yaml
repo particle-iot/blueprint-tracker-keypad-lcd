@@ -2,8 +2,8 @@ id: particle/blueprint-tracker-keypad-lcd
 slug: particle-blueprint-tracker-keypad-lcd
 type: tutorial
 category: "Tracker projects"
-expertiseLevel: ""
-tags: ["tracker", "keypad"]
+expertiseLevel: "intermediate"
+tags: ["tracker", "display", "keypad"]
 icon: assets/particle-logo.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-keypad-lcd
 name: "Tracker keypad and LCD integration"
