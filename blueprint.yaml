@@ -1,7 +1,7 @@
 slug: particle-blueprint-tracker-keypad-lcd
 type: Tutorial
 category: "Tracker projects"
-expertiseLevel: "Intermediate"
+expertiseLevel: "Expert"
 tags: ["Tracker", "Display", "Keypad"]
 icon: assets/tracker-keypad-lcd-integration.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-keypad-lcd
@@ -19,6 +19,8 @@ supportedDevices:
     link: https://www.particle.io/tracker-som/
 hardwareDependencies:
   - name: Supported device
+  - name: M8 cable
+  - name: Board with keypad and LCD interface
 introduction: |
   This project demonstrates adding peripherals like a keypad, LCD, DAC, and custom LEDs to the Tracker One using the M8 connector. It's a demonstration board showcasing the kinds of hardware integrations possible, ideal for learning and experimentation.
 description: |
