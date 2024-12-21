@@ -6,7 +6,7 @@ tags: ["Tracker", "Display", "Keypad"]
 icon: assets/tracker-keypad-lcd-integration.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-keypad-lcd
 name: "Tracker keypad and LCD integration"
-shortDescription: Adding a keypad or LCD to the Tracker One
+shortDescription: "Adding a keypad or LCD to the Tracker One."
 version: 1.0.0
 models: []
 language: ["C++"]
