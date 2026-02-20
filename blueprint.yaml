@@ -3,7 +3,7 @@ type: Tutorial
 category: "Tracker projects"
 expertiseLevel: "Advanced"
 tags: ["Tracker", "I2C", "GPIO"]
-icon: assets/tracker-keypad-lcd-integration.svg
+icon: assets/tracker-keypad.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-keypad-lcd
 name: "Tracker keypad and LCD integration"
 shortDescription: "Adding a keypad or LCD to the Tracker One."
